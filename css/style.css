@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+.container:hover {
+  cursor: pointer;
+}
+.container:hover .perspective {
+  -webkit-perspective: 70em;
+}
+.container:hover .square {
+  -webkit-transform: rotatey(90deg);
+}
+.perspective {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-transition: all 1s ease-in;
+}
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: #0099ff;
+  display: inline-block;
+}
